@@ -5,7 +5,7 @@
 | ID | 情報源 | 確認箇所・結果 | 状態 |
 |---|---|---|---|
 | 高橋2021 | ローカル配布教材（再配布しない） | 元資料PDFの1–17, 21–22, 24–29, 31–33頁を確認。形式と論証の説明は要約。原典未読の書籍は孫引きとする。 | 資料確認済み（実機の範囲は本文参照） |
-| 横井2026 | https://speakerdeck.com/eumesy/before-talking-about-language-via-language-models | 著者公開スライド2,10–20を確認。対応動画IDは一致。動画本体・字幕は未取得で、時刻引用はしない。 | 資料確認済み（実機の範囲は本文参照） |
+| 横井2026 | https://speakerdeck.com/eumesy/before-talking-about-language-via-language-models | 著者公開スライド2,10–20と動画の自動字幕8:27–12:39・17:29–18:42を照合。学習と生成、パラメーター調整、対話用の追加学習、未知の文脈への一般化を確認。自動字幕は誤変換があるため直接引用しない。 | 資料確認済み（実機の範囲は本文参照） |
 | 玉岡ほか2011 | https://www.jstage.jst.go.jp/article/gengo/139/0/139_57/_article/-char/ja | 言語研究139 (2011), 57-84、著者3名、DOI 10.11435/gengo.139.0_57を確認。本文の代わりに抄録だけで広い主張を作らない。 | 資料確認済み（実機の範囲は本文参照） |
 | Zotero基本 | https://www.zotero.org/support/quick_start_guide | 書誌の収集・整理・メモ等を公式ガイドで確認。サイト別Connectorの実機動作は未実施。 | 資料確認済み（実機の範囲は本文参照） |
 | Zotero導入 | https://www.zotero.org/support/installation | MacでdmgからApplicationsへ配置、ブラウザConnectorを併せて入れる手順を確認。 | 資料確認済み（実機の範囲は本文参照） |
@@ -25,7 +25,7 @@
 
 ## 未確認・採用しなかった情報
 
-- 指定動画本体：Web取得失敗。著者公開スライドの動画リンクがumxgVN6xNj0を指すことは確認。動画の発言時刻を教材に載せない。
+- 指定動画：初回のWeb取得は失敗したが、Chromeから日本語自動字幕を取得できた。動画ページのタイトルとIDも確認。映像・音声の連続視聴は行っていない。字幕の誤変換は著者スライドと照合し、直接引用には使用しない。
 - APA公式Book References：ページ本文を取得できなかった。具体例はTypstの内蔵CSLによる生成結果として説明し、APA全規則を確認済みとはしない。
 - IEEE公式Reference Guide：この環境のWebツールで取得できなかった。具体例はTypst内蔵CSLで生成したものとして示す。
 - SIST02公式旧URL：国会図書館保存サイトへの転送後を取得できず、補足候補にとどめる。
@@ -48,3 +48,5 @@
 - 書式比較：refs/style-comparison.typからapa / ieee / chicago-notesを実際に生成。文献出力部分の言語をenに固定してスライドの例と照合した。日本語ローカライズでは年表記等が変わる。これはZoteroの実機出力の記録ではない。
 - LuaHBTeX 1.24.0（TeX Live 2026）、Biber 2.21、biblatex-japaneseのローカルProvidesPackage表示2018/02/15で最小例を実行。LuaLaTeX→Biber→LuaLaTeX×2で未定義引用が解消。日本語著者3名の姓名順、和欧混在、引用ページp. 57、論文範囲pp. 57–84、DOIをPDF本文で確認。翻訳書・他スタイル・Zotero自動書き出し経由は未検証。
 - Pagesの公開元main /docsはGitHub公式設定資料で確認：https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site 。
+
+- 指定動画の字幕確認：https://www.youtube.com/watch?v=umxgVN6xNj0 。8:27–9:55（入力・数値計算・パラメーター）、10:27–11:57（見本に近づける調整）、12:01–12:39（対話用の学習）、17:29–18:42（一般化と予測の仕組み）。字幕全文は再配布しない。
