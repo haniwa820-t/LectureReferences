@@ -30,5 +30,7 @@ Charles Yu, _Interior Chinatown_, Pantheon Books, 2020
 + 末尾の文献一覧と対応させる。
 + AIが挙げた根拠も、原典で確認する。
 #v(20pt)
-#takeaway[ここで質問を受けます。休憩・退出・再参加もできます。]
+#takeaway[ここで質問を受けます。休憩・退出・再参加もできます。
+]
+#small[配布先：#link(distribution-url)[haniwa820-t.github.io/LectureReferences/]]
 ]

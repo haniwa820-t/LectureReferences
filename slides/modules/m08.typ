@@ -40,5 +40,7 @@
 #v(24pt)
 #takeaway[書式を自動化しても、文献を読んで判断するのは自分。]
 #v(15pt)
-#small[ここで質問を受けます。退出・再参加もできます。]
+#small[ここで質問を受けます。退出・再参加もできます。
+]
+#small[配布先：#link(distribution-url)[haniwa820-t.github.io/LectureReferences/]]
 ]

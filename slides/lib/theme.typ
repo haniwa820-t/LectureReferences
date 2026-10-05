@@ -23,3 +23,6 @@
 #let takeaway(body) = block(inset: (left: 16pt), stroke: (left: 3pt + accent), body)
 #let small(body) = text(size: 19pt, body)
 #let exercise(body) = [#text(fill: accent, weight: "bold")[個人で考える] #v(12pt) #body]
+
+// Pages APIが返した実際の公開URL。配布先変更はここを編集する。
+#let distribution-url = "https://haniwa820-t.github.io/LectureReferences/"

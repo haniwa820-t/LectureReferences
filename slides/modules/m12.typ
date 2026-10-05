@@ -39,12 +39,12 @@ University of Chicago Press. #link("https://www.chicagomanualofstyle.org/tools_c
 ]
 ]
 
-#lecture("M12-04", "資料はあとから読み返せる", "【資料】高橋2021への謝辞／【追加】配布先", [公開先を確定するまではこのスライドは未設定表示にする。元資料PDFそのものは許諾不明のため公開しない。発表者名はユーザーが掲載を指定した表記を保つ。])[
+#lecture("M12-04", "資料はあとから読み返せる", "【資料】高橋2021への謝辞／【追加】配布先", [配布ページを開いて、あとから読める資料を示す。元資料PDFそのものは許諾不明のため公開しない。発表者名はユーザーが掲載を指定した表記を保つ。])[
 #text(size: 30pt, fill: accent)[配布PDF・演習・参考リンク]
 #v(18pt)
-公開先未設定（配布ページを準備中）
+#link(distribution-url)[haniwa820-t.github.io/LectureReferences/]
 #v(24pt)
-#small[公開URLは実際のPages公開時に確認・更新する。\
+#small[早見表・ガイド・演習と解答を配布ページから取得できます。\
 発表：山根義琉 IE3-35\
 元資料の著者：高橋祥吾（発表者とは別人）]
 #v(16pt)
