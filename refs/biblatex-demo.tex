@@ -1,0 +1,11 @@
+\documentclass{ltjsarticle}
+\usepackage[haranoaji]{luatexja-preset}
+\usepackage[backend=biber,nameorder=true]{biblatex-japanese}
+\addbibresource{refs/demo-book.bib}
+\begin{document}
+\section*{biblatex-japaneseの最小例}
+日本語文献の書誌例\autocite[57]{tamaoka2011}。
+これは書誌形式の動作確認であり、論文内容を引用した文章ではない。
+\nocite{yu2020}
+\printbibliography
+\end{document}
