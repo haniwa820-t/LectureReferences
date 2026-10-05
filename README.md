@@ -15,7 +15,7 @@
 
 ## macOSでビルドする
 
-確認環境：Typst 0.15.1、Touying 0.8.0（uniwarn 0.1.1）、Harano Aji Gothic。フォントは環境側に用意する。初回はTypstパッケージ取得にネットワークが必要である。
+確認環境：Typst 0.15.1、Touying 0.8.0（uniwarn 0.1.1）、スライドはHelvetica Neue＋Hiragino Sans（Harano Aji Gothicをフォールバック）、配布物はHarano Aji Gothic。フォントは環境側に用意する。初回はTypstパッケージ取得にネットワークが必要である。
 
 ```sh
 sh scripts/build.sh
@@ -27,7 +27,7 @@ sh scripts/build.sh
 typst compile --root . --package-cache-path build/typst-packages --input mode=standard slides/main.typ build/slides-standard.pdf
 ```
 
-本文12ptの配布物を生成する。スライドは16:9、本文24pt。参照例の細部は配布物にも置く。
+本文12ptの配布物を生成する。スライドは16:9、本文26pt、タイトル36pt、章名19pt。参照例の細部は配布物にも置く。
 
 ## PDFを確認する
 
@@ -62,3 +62,11 @@ biblatex-japaneseと日本語フォントの導入が必要。検証範囲は`re
 公開URLと設定結果は`notes/self-review.md`に記録する。更新時はビルド→全ページ確認→コミット→push→公開PDF確認の順に行う。
 
 元資料PDF、抽出全文、第三者画像、発表者用ノートは`docs/`に入れない。`sources/*.pdf`と`build/`はGit対象外。元資料の再配布許諾は未確認であり、元PDFを公開しない。各資料内で元資料に基づく要約と追加説明を区別する。
+
+## スライドの階層と図解
+
+上部左に章名、右に部名を常時表示し、その下に短いトピック名を置く。表示上は第1〜9章で、実装IDのM00〜M12はノートと演習との対応に使う。M06は第5章、M09は第7章の補足に含むため、standardでも章番号が飛ばない。
+
+章名・配色・書体・共通配置は`slides/lib/theme.typ`で編集する。本文と文献一覧の対応は`citation-link()`、AIの学習と生成は`model-process()`。どちらもTypstの描画要素と文字で作り、画像ファイルに固定しない。投影本文は中立的な説明・例・演習情報に限定する。
+
+デザインの参考：https://student.tsutawarudesign.com/slide_design/ （2026-10-06確認）。書体、色数、見出し・本文の配置を統一する原則を参考にし、参考ページの画像や図は転載していない。

@@ -50,3 +50,9 @@
 - Pagesの公開元main /docsはGitHub公式設定資料で確認：https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site 。
 
 - 指定動画の字幕確認：https://www.youtube.com/watch?v=umxgVN6xNj0 。8:27–9:55（入力・数値計算・パラメーター）、10:27–11:57（見本に近づける調整）、12:01–12:39（対話用の学習）、17:29–18:42（一般化と予測の仕組み）。字幕全文は再配布しない。
+
+## スライドのデザイン改訂（2026-10-06）
+
+- 参考：https://student.tsutawarudesign.com/slide_design/ 。読みやすいゴシック体、少ない色数、見出し・本文・強調の配置の統一を確認。フォント搭載状況など古くなり得るページ記述をそのまま一般化せず、実際のmacOS上でHelvetica Neue・Hiragino Sans・Harano Aji Gothicの存在を確認した。
+- 章名は第1〜9章で常時表示。スライドタイトルは短い名詞句を基本とし、呼びかけと進行台詞を中立的な表記に変更。自作図は本文・文献一覧の対応と学習・生成の模式図で、外部画像を転載していない。
+- 全章49ページとstandard版をコンパイル。編集後の全ページの画像で章名、タイトル、図解、文字欠け、余白、ページ送りを確認。検証結果はnotes/self-review.mdにも記録。

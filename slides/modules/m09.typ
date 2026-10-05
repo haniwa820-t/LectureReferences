@@ -2,7 +2,7 @@
 
 // M09。時間と本編／補足の扱いはoutline/outline.mdを参照。
 
-#lecture("M09-01", "執筆ツールは目的と指定に合わせて選ぶ", "【追加】Microsoft Support／Typst公式／biblatex-japanese公式", [優劣ランキングにしない。すぐ使う必要はなく、将来の選択肢として示す。Typstは今回の制作例そのものを見せれば環境を想像しやすい。])[
+#lecture("M09-01", "Word・Typst・LaTeX", "【追加】Microsoft Support／Typst公式／biblatex-japanese公式", [優劣ランキングにしない。すぐ使う必要はなく、将来の選択肢として示す。Typstは今回の制作例そのものを見せれば環境を想像しやすい。])[
 #table(columns: (140pt, 1fr), inset: 11pt, stroke: .5pt + rgb("ccd6da"),
  [Word], [画面で編集。脚注・文献管理の機能を使う。],
  [Typst], [ソースから組版。今回のスライドもTypst。],
@@ -12,9 +12,7 @@
 学校課題に指定がある場合は、その指定を先に確認する。]
 ]
 
-#lecture("M09-02", "LaTeXで日本語文献を管理する", "【追加】前田「biblatex-japaneseパッケージ」・公式リポジトリ", [発表者の指定による推薦。開発途上との公式記述があり、現行環境での全動作を保証しない。ローカル最小例の実行結果は検証ログを参照する。聴衆には細かな設定より、文献データと書式を分けて管理する発想を伝える。])[
-#text(size: 29pt, fill: accent)[biblatex-japanese]
-#v(18pt)
+#lecture("M09-02", "biblatex-japanese", "【追加】前田「biblatex-japaneseパッケージ」・公式リポジトリ", [発表者の指定による推薦。開発途上との公式記述があり、現行環境での全動作を保証しない。ローカル最小例の実行結果は検証ログを参照する。聴衆には細かな設定より、文献データと書式を分けて管理する発想を伝える。])[
 #small[LaTeXの文献管理biblatexに、日本語用の設定を加える。\
 Biberで文献データを処理する。]
 #v(22pt)
