@@ -12,6 +12,15 @@
 - `handouts/`・`exercises/`：配布物の編集ソース。
 - `refs/`：参考文献、確認範囲と未確認事項、言語学デモ用データ。
 - `docs/`：Pagesで公開するページとPDFのみ。
+- `sample-reports/`：同じ内容のサンプルレポートをLuaLaTeX / Typstで作成するソースと完成PDF。
+
+## サンプルレポートをビルドする
+
+```sh
+sh sample-reports/build.sh
+```
+
+完成PDFとLuaLaTeXの補助ファイルは、ソースと同じ`sample-reports/`に出力する。完成PDFは`docs/pdf/sample-report-lualatex.pdf`と`docs/pdf/sample-report-typst.pdf`にもコピーし、Pagesから閲覧できる。詳細は[sample-reports/README.md](sample-reports/README.md)を参照する。
 
 ## macOSでビルドする
 

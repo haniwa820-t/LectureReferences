@@ -56,3 +56,10 @@
 - 参考：https://student.tsutawarudesign.com/slide_design/ 。読みやすいゴシック体、少ない色数、見出し・本文・強調の配置の統一を確認。フォント搭載状況など古くなり得るページ記述をそのまま一般化せず、実際のmacOS上でHelvetica Neue・Hiragino Sans・Harano Aji Gothicの存在を確認した。
 - 章名は第1〜9章で常時表示。スライドタイトルは短い名詞句を基本とし、呼びかけと進行台詞を中立的な表記に変更。自作図は本文・文献一覧の対応と学習・生成の模式図で、外部画像を転載していない。
 - 全章49ページとstandard版をコンパイル。編集後の全ページの画像で章名、タイトル、図解、文字欠け、余白、ページ送りを確認。検証結果はnotes/self-review.mdにも記録。
+
+## サンプルレポートの原典確認（2026-10-06）
+
+- 【追加】玉岡賀津雄・木山幸子・宮岡弥生（2011）：J-STAGE詳細ページ https://www.jstage.jst.go.jp/article/gengo/139/0/139_57/_article/-char/ja/ で著者3名、刊年2011、139巻、pp. 57-84、DOIを再確認。公開PDF本文のpp. 60, 63-64, 75-79をWebツールで確認した。サンプル本文の根拠には総合考察pp. 75-76を用い、直接引用はp. 76の「副詞として機能する」という短句に限定する。抄録だけを根拠に広い主張を作っていない。PDFのローカル取得はHTTP 502で失敗し、原典PDFの画像表示も取得できなかったため、Webツールの本文抽出を確認範囲とする。通し読み済みとは記録しない。
+- 【追加】国立国語研究所の「『擬音語・擬態語』にはどんな種類がある？」：https://www2.ninjal.ac.jp/Onomatope/column/nihongo_1.html の本文を確認。同じ語が複数の意味・用法を持つ説明を要約した。更新日はページ上で確認できず、省略し、最終アクセス2026年10月6日を明記。紹介される金田一（1978）の原典は未確認のため、参考文献一覧に原典を載せない。
+- 【追加】biblatex-japanese公式README https://github.com/kmaed/biblatex-japanese を再確認。標準出力が高橋の元資料形式と一致するとはせず、教材専用の表示設定を別ファイルに置いた。
+- 【追加】Typst公式 https://typst.app/docs/reference/model/footnote/ と https://typst.app/docs/reference/model/par/ を確認。脚注の自動番号と、全段落の字下げ用の`first-line-indent: (amount: 1em, all: true)`を採用した。
