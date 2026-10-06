@@ -1,0 +1,40 @@
+:root {
+  color-scheme: light;
+  --ink: #262626;
+  --muted: #595959;
+  --line: #d6d6d6;
+  --link: #284c6f;
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: #fff;
+  color: var(--ink);
+  font-family: system-ui, -apple-system, "Hiragino Kaku Gothic ProN", sans-serif;
+  line-height: 1.8;
+}
+main { max-width: 900px; margin: auto; padding: 50px 24px; }
+header { padding: 24px 0 30px; border-bottom: 1px solid var(--line); }
+.eyebrow { display: flex; align-items: center; gap: 12px; color: var(--muted); font-size: .9rem; }
+.logo { display: block; flex-shrink: 0; }
+h1 { font-size: clamp(1.5rem, 5vw, 2.2rem); line-height: 1.4; margin: 20px 0; }
+h2 { font-size: 1.3rem; margin-top: 40px; }
+h3 { margin: 0 0 8px; font-size: 1.2rem; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr)); gap: 16px; }
+.card { padding: 22px; border-top: 1px solid var(--line); }
+.card p { margin: 6px 0 18px; }
+a { color: var(--link); text-underline-offset: 3px; }
+a:hover { text-decoration-thickness: 2px; }
+.button {
+  display: inline-block;
+  padding: 8px 17px;
+  border: 1px solid var(--ink);
+  color: var(--ink);
+  text-decoration: none;
+  font-weight: 700;
+}
+.button:hover { background: #f2f2f2; }
+a:focus-visible { outline: 3px solid var(--link); outline-offset: 4px; }
+.small { font-size: .9rem; color: var(--muted); }
+footer { margin-top: 36px; border-top: 1px solid var(--line); padding-top: 18px; }

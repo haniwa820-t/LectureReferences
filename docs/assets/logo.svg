@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- 【追加】自作ロゴ：開いた本と引用符。外部素材は使用していない。 -->
+  <rect width="64" height="64" fill="#fff"/>
+  <g fill="none" stroke="#284c6f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M32 18C25 13 16 12 7 15v34c9-3 18-2 25 3 7-5 16-6 25-3V15c-9-3-18-2-25 3Z"/>
+    <path d="M32 18v34M14 25h10M14 32h10M14 39h10"/>
+    <path d="M39 26h5v6c0 3-2 5-5 5M48 26h5v6c0 3-2 5-5 5"/>
+  </g>
+</svg>
